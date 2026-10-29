@@ -1,0 +1,19 @@
+# Build output
+.build/
+dist/
+native/build/
+*.o
+*.a
+
+# The pinned third-party source tree is vendored and required for builds.
+# Keep it in Git; do not ignore vendor/.
+
+# Xcode / SwiftPM
+*.xcuserstate
+xcuserdata/
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
+.debug-helpers/

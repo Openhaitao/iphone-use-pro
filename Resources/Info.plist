@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>iphone-use</string>
+	<key>CFBundleIdentifier</key>
+	<string>ai.new-wave.iphone-use</string>
+	<key>CFBundleName</key>
+	<string>iPhone Use</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.3.0</string>
+	<key>CFBundleVersion</key>
+	<string>3</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>27.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>iPhone Use shows up as a Bluetooth keyboard and mouse so it can tap and type on your iPhone.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_airplay._tcp</string>
+		<string>_raop._tcp</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>iPhone Use reads your iPhone's screen over USB, the same way QuickTime does.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Receive the iPhone screen you explicitly mirror to this Mac over AirPlay.</string>
+</dict>
+</plist>
